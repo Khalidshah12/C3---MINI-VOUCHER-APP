@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    width: 99%;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#myVoucher>h3 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#addMoney>h3 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#purchased_vouchers {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.voucher {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.name {
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    margin-top: 10px;
+}
+
+img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.buy_voucher {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+    background-color: rgb(122, 178, 180);
+    border: none;
+    border-radius: 5px;
+}
+
+.buy_voucher:hover {
+    background-color: rgb(58, 128, 131);
+    font-weight: bold;
+}

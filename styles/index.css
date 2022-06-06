@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar {
+    width: 99%;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar>h3 {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#form {
+    width: 35%;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+    background-color: rgb(208, 214, 119);
+}
+
+#name,
+#email,
+#address,
+#amount {
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: 40px;
+    padding-left: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+#submit {
+    border-radius: 5px;
+    border: none;
+    background-color: cadetblue;
+    display: block;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    height: 35px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(58, 128, 131);
+    font-weight: bold;
+}
